@@ -1,0 +1,53 @@
+// 設定mockdown的背景顏色
+.p-panel-toggleable .p-panel-header{
+    background-color: var(--panel-color);
+}
+.p-panel-content{
+    padding-top: 20px !important;
+}
+
+// 必填樣式
+.question-type {
+    display: inline-block;
+    padding: 0.2em 0.4em;
+    border: 1px solid red;
+    background-color: white;
+    color: red;
+    font-weight: bold;
+    border-radius: 4px;
+    margin-right: 0.5em;
+}
+.optional-label {
+    display: inline-block;
+    padding: 0.2em 0.4em;
+    border: 1px solid gray;
+    background-color: white;
+    color: gray;
+    font-weight: bold;
+    border-radius: 4px;
+    margin-right: 0.5em;
+}
+
+.bg-filled {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+}
+.bg-unfilled {
+    background-color: #f8f9fa;
+    color: #6c757d;
+    border: 1px solid #dee2e6;
+}
+
+.status-filled {
+    background-color: #d4edda;
+    color: #155724;
+    padding: 0.5em 1em;
+    border-radius: 4px;
+}
+.status-unfilled {
+    background-color: #f8f9fa;
+    color: #6c757d;
+    padding: 0.5em 1em;
+    border-radius: 4px;
+}
