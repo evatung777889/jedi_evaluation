@@ -87,7 +87,6 @@
         gap: 1rem;
         .topbar-menu {
             color: #ffffff;
-            margin: 1rem;
         }
         .topbar-menu-icon{
             margin-right: 0.5rem;
@@ -227,7 +226,7 @@
 
 .topbar-menu {
     color: #ffffff;
-    margin: 1rem;
+    margin: 0.5rem;
     padding: 0.75rem 1.5rem; /* Increased padding for larger clickable area */
     font-size: 1.1rem; /* Increased font size for better visibility */
 
@@ -237,7 +236,7 @@
     }
 
     span {
-        font-size: 1.1rem; /* Adjusted text size */
+        font-size: 0.9rem; /* Adjusted text size */
     }
 }
 
